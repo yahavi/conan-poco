@@ -7,7 +7,7 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: 'sudo npm install -g conan'
+    script: 'pip install conan'
 - task: ArtifactoryConan@1
   inputs:
     conanCommand: 'Install'
