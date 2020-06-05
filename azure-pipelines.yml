@@ -11,7 +11,7 @@ steps:
     architecture: 'x64'
 - task: Bash@3
   inputs:
-    filePath: 'pip install conan'
+    filePath: 'pip3 install conan'
 - task: ArtifactoryConan@1
   inputs:
     conanCommand: 'Install'
