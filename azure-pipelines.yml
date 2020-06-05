@@ -1,17 +1,9 @@
 trigger: none
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'Yahavi-mac'
 
 steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.x'
-    addToPath: true
-    architecture: 'x64'
-- task: Bash@3
-  inputs:
-    filePath: 'pip3 install conan'
 - task: ArtifactoryConan@1
   inputs:
     conanCommand: 'Install'
