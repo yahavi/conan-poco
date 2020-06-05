@@ -1,7 +1,7 @@
 trigger: none
 
 pool:
-  agent: 'Yahavi-mac'
+  agent: 'yahav'
 
 steps:
 - task: ArtifactoryConan@1
