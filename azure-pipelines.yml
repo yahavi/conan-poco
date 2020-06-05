@@ -1,7 +1,7 @@
 trigger: none
 
-pool:
-  vmImage: 'Default'
+# pool:
+#   vmImage: 'Default'
 
 steps:
 - task: ArtifactoryConan@1
